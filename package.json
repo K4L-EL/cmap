@@ -1,0 +1,35 @@
+{
+  "name": "compmap",
+  "version": "1.5.0",
+  "description": "",
+  "main": "/dist/compmap.js",
+  "types": "dist/compmap.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/K4L-EL/compmap.git"
+  },
+  "author": "KAL-EL",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/node": "^16.18.91",
+    "@types/react": "^18.2.69",
+    "@types/react-dom": "^18.2.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/K4L-EL/compmap/issues"
+  },
+  "homepage": "https://github.com/K4L-EL/compmap#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.1"
+  }
+}
